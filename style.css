@@ -7,6 +7,7 @@
 
 .header-img {
   width: 70px;
+  margin-left: 200px;
 }
 
 .gallery-img {
@@ -15,5 +16,58 @@
 
 .social-img {
   width: 25px;
-  margin-left: 10px;
+}
+
+header {
+  height: 70px;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-p {
+  text-align: center;
+  color: rgba(36, 35, 35, 0.74);
+  font-size: 30px;
+  margin-top: 8px;
+  font-weight: 900;
+}
+
+#section-img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#section-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.border-img {
+  width: 170px;
+  background-color: rgb(238, 233, 233);
+  border-radius: 20px;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+  height: 220px;
+  color: rgba(36, 35, 35, 0.74);
+  box-shadow: 2px 2px rgb(202, 202, 202);
+}
+
+hr {
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
